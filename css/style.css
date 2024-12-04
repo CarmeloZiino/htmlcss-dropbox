@@ -1,111 +1,156 @@
 /* Css. Header */
 
-header{
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 1px;
-    background-color: white;
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 1px;
+  background-color: white;
 
-    font-size:x-small;
-    padding: 20px;
+  font-size: x-small;
+  padding: 20px;
 }
 
-.info1 ,
-.info2{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.info1,
+.info2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.signin{
-    background-color: white;
-    border: none;
-    font-size: small;
-
+.signin {
+  background-color: white;
+  border: none;
+  font-size: small;
 }
 
-.start{
-    background-color: #0360FE;
-    color: white;
-    border: none;
-    padding: 6px;
-    font-size: x-small;
-
+.start {
+  background-color: #0360fe;
+  color: white;
+  border: none;
+  padding: 6px;
+  font-size: x-small;
 }
 
 /* Css. Main */
 
+/* Css Primo Blocco */
+.block-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  padding-inline: 20%;
 
-.block-1{
+  background-color: #b3cfe6;
+}
+
+.block-1 > h1 {
+  position: relative;
+  top: 50px;
+  font-size: 50pt;
+  line-height: 100px;
+
+  width: 100%;
+}
+
+.block-1 > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.block-1 > div > article {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  flex-basis: 30%;
+
+  font-size: 12pt;
+  line-height: 25px;
+}
+
+.block-1 > div > article > a {
+  font-size: 30pt;
+  padding: 10px;
+}
+
+article > .start {
+  width: 55%;
+  font-size: 12px;
+}
+
+.cancel {
+  background-color: transparent;
+  border-color: transparent;
+  width: 55%;
+  font-size: 12px;
+}
+
+.block-1 > div > figure {
+  display: flex;
+
+  flex-basis: 70%;
+}
+
+figure > img {
+  width: 50%;
+
+  position: absolute;
+  bottom: 180px;
+}
+
+/* Css Secondo Blocco */
+
+.block-2 {
+  display: flex;
+  padding-top: 15%;
+  padding-inline: 20%;
+
+  flex-direction: column;
+  gap: 50px;
+}
+
+.block-2 > h2 {
+  font-size: 35pt;
+}
+
+.radio-button {
+  display: flex;
+  gap: 50px;
+}
+
+.plane {
+  display: flex;
+}
+
+.column-1 {
+  border: 1px solid lightgrey;
+}
+
+.typology {
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 20px;
+}
+.plane-bottom{
     display: flex;
     flex-direction: column;
-    gap: 100px;
-    align-items: center;
-    padding-inline: 20%;
-
-    background-color: #B3CFE6;
-}
-
-.block-1>h1{
-    position: relative;
-    top: 50px;
-    font-size: 50pt;
-    line-height: 100px;
-
-    width: 100%;
-}
-
-.block-1>div{
-    display: flex;
-    align-items: center;
-    width: 100%;
-
-   
-}
-
-.block-1>div>article {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    width: 100%;
-    flex-basis: 30%;
-
-    font-size: 12pt;
-    line-height: 25px;
+    gap:30px;
+    padding: 20px;
+    
 
 }
 
-
-.block-1>div>article>a {
-font-size: 30pt;
-padding: 10px;
+.column-1 > h3 {
+    font-size: 25pt;
 }
 
-article > .start{
-width: 55%;
-font-size: 12px;
+.price {
+  font-weight: bold;
 }
 
-.cancel{
-background-color: transparent;
-border-color: transparent;
-width: 55%;
-    font-size: 12px;
-        
+.cadence {
+  color: gray;
 }
-
-
-.block-1>div>figure{
-    display: flex;
-
-   flex-basis: 70%;
-}
-
- figure > img{
-width: 50%;
-
-position: absolute;
-bottom: 180px;
-}
-
