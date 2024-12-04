@@ -94,7 +94,8 @@ article > .start {
   flex-basis: 70%;
 }
 
-figure > img {
+
+.block-1 > div > figure > img {
   width: 50%;
 
   position: absolute;
@@ -250,3 +251,56 @@ span > i {
 
 
 /* Css. Blocco 3 */
+
+.block-3{
+    display: flex;
+    width: 100%;
+   padding-inline: 20%;
+   padding: 20%;
+}
+
+.block-3 > .find-partner{
+    display: flex;
+    flex-basis: 100%
+}
+
+.block-3 > .find-partner > figure {
+    flex-basis: 60%;
+    flex-shrink: 1;
+    flex-grow: 0;
+    
+}
+
+.block-3 > .find-partner > article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    flex-basis:  40%;
+    padding: 20px;
+    line-height: 25px;
+    
+
+}
+
+.block-3 > .find-partner > figure > img{
+    width:  100%;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+
+.block-3 > .find-partner > article > p{
+    font-size: 10pt;
+    color: gray;
+}
+
+.block-3 > .find-partner > article > button{
+    background-color: white;
+    border: 1px solid lightgray ;
+    color: gray;
+    width: 40%;
+    padding: 10px;
+}
+
+/* Css. Blocco 4 */
