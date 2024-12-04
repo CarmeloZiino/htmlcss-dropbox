@@ -4,7 +4,8 @@ header{
     display: flex;
     justify-content: space-between;
     position: sticky;
-    top: 1;
+    top: 1px;
+    background-color: white;
 
     font-size:x-small;
     padding: 20px;
@@ -32,3 +33,79 @@ header{
     font-size: x-small;
 
 }
+
+/* Css. Main */
+
+
+.block-1{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    padding-inline: 20%;
+
+    background-color: #B3CFE6;
+}
+
+.block-1>h1{
+    position: relative;
+    top: 50px;
+    font-size: 50pt;
+    line-height: 100px;
+
+    width: 100%;
+}
+
+.block-1>div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+   
+}
+
+.block-1>div>article {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    flex-basis: 30%;
+
+    font-size: 12pt;
+    line-height: 25px;
+
+}
+
+
+.block-1>div>article>a {
+font-size: 30pt;
+padding: 10px;
+}
+
+article > .start{
+width: 55%;
+font-size: 12px;
+}
+
+.cancel{
+background-color: transparent;
+border-color: transparent;
+width: 55%;
+    font-size: 12px;
+        
+}
+
+
+.block-1>div>figure{
+    display: flex;
+
+   flex-basis: 70%;
+}
+
+ figure > img{
+width: 50%;
+
+position: absolute;
+bottom: 180px;
+}
+
