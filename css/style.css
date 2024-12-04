@@ -101,6 +101,12 @@ figure > img {
   bottom: 180px;
 }
 
+.plane-bottom-header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 /* Css Secondo Blocco */
 
 .block-2 {
@@ -125,7 +131,6 @@ figure > img {
   display: flex;
   gap: 40px;
 }
-
 
 .column-1,
 .column-2,
@@ -161,7 +166,7 @@ figure > img {
   display: flex;
   flex-direction: column;
   gap: 30px;
-line-height: 25px;
+  line-height: 25px;
 }
 
 .column-button {
@@ -175,18 +180,73 @@ line-height: 25px;
   color: white;
   border: none;
   padding: 10px;
-  width: 40%;
 }
 
 hr {
   width: 15%;
 }
 
-.plane-bottom>span{
-    line-height: 25px;
+.plane-bottom > span {
+  line-height: 25px;
 }
 
 span > i {
   color: #0060ff;
   font-size: 15pt;
 }
+
+/* CSS. Blocco 2 - Colonna 2 */
+
+.column-3 > .plane-bottom > .plane-bottom-header {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+/* Blocco 2 - Bottom */
+
+.block-2-bottom {
+  border: 1px solid lightgrey;
+}
+
+.block-2-bottom-content {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.block-2-bottom-content > .button > button {
+  background-color: #0360fe;
+  color: white;
+  border: none;
+  padding: 15px;
+}
+
+.block-2-bottom-content > .button {
+  flex-basis: 50%;
+  text-align: right;
+}
+
+.block-2-bottom-header {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  flex-basis: 100%;
+}
+
+.block-2-bottom-header>.txt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.block-2-bottom-header > .txt > h3 {
+  font-size: 25pt;
+}
+
+.block-2-bottom-header > .description > p {
+  font-size: 10pt;
+  line-height: 20px;
+}
+
+
+/* Css. Blocco 3 */
