@@ -35,43 +35,49 @@ header {
 /* Css. Main */
 
 /* Css Primo Blocco */
+
 .block-1 {
+  background-color: #b3cfe6;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+}
+
+.container-80{
   display: flex;
   flex-direction: column;
   gap: 70px;
-  align-items: center;
-  padding-inline: 20%;
-
-  background-color: #b3cfe6;
+  width: 80%;
 }
 
-.block-1 > h1 {
+
+.container-80 > h1 {
   position: relative;
   top: 50px;
   font-size: 50pt;
   line-height: 100px;
-
   width: 100%;
 }
 
-.block-1 > div {
+.container-80 > div {
   display: flex;
+  flex-direction: row;
   align-items: center;
   width: 100%;
 }
 
-.block-1 > div > article {
+.container-80 > div > article {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  width: 100%;
   flex-basis: 30%;
 
   font-size: 12pt;
   line-height: 25px;
 }
 
-.block-1 > div > article > a {
+.container-80 > div > article > a {
   font-size: 30pt;
   padding: 10px;
 }
@@ -88,17 +94,15 @@ article > .start {
   font-size: 12px;
 }
 
-.block-1 > div > figure {
+.container-80 > div > figure {
   display: flex;
-
   flex-basis: 70%;
 }
 
-.block-1 > div > figure > img {
-  width: 60%;
-
-  position: absolute;
-  bottom: 160px;
+.container-80 > div > figure > img {
+  width: 100%;  
+  position: relative;
+  bottom: -100px; 
 }
 
 .plane-bottom-header {
